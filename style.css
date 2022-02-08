@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+html {
+    font-size: 70%;
+}
+
+body {
+
+    background: #C9ADA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.container {
+    border: .5rem solid #4A4E69;
+    border-radius: .5rem;
+    /* height: 400px; */
+    padding: 2rem;
+    background: #22223B;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    color: #F2E9E4;
+    letter-spacing: .1rem;
+}
+
+.container h1 span {
+    color: #9A8C98;
+}
+
+.container input {
+    margin: 2rem auto;
+    font-size: 2rem;
+    width: 20rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: .3rem solid #4A4E69;
+    border-radius: .5rem;
+    color: #22223B;
+    width: 70%;
+    outline: none;
+    user-select: none;
+}
+
+.container input:focus {
+    border: .3rem solid #4A4E69;
+    border-radius: .5rem;
+}
+
+.container input::placeholder {
+    font-size: 2rem;
+    color: #22223B;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.container .btn-container {
+    width: 70%;
+    margin: auto;
+}
+
+.container .btn {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border: .3rem solid #4A4E69;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+
+#copyBtn {
+    background: #22223B;
+    color: #F2E9E4;
+}
+
+#genBtn:hover {
+    background-color: #22223B;
+    color: #F2E9E4;
+}
+
+
+/* Media Queries */
+
+@media (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 45%;
+    }
+}
